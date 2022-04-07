@@ -44,3 +44,8 @@ h4 {
   width: 200px;
   text-align: center;
 }
+.github {
+  display: block;
+  font-size: 12px;
+  margin-left: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
