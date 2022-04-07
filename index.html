@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="images/weathereye.png" alt="weather forecast" width="120px" />
+    </div>
+    <form class="entercity" id="entercity">
+      <input 
+      type="text" 
+      placeholder=" 🔍    Enter a city" 
+      autocomplete="off"
+      id="city-input"
+      />
+      <input type="submit" value="Search" />
+    </form>
+    <h1 id="city">Warsaw</h1>
+    <h3>Monday 19:45</h3>
+    <h2>🌤 6°C</h2>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">⛅️</h4>
+              <p class="card-text">Tue 15</p>
+              <p class="temperature"></p>
+              <p><strong>10°</strong> / 2°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">☀️</h4>
+              <p class="card-text">Wed 16</p>
+              <p><strong>15°</strong> / -1°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">🌦</h4>
+              <p class="card-text">Thu 17</p>
+              <p><strong>11°</strong> / 1°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">⛈</h4>
+              <p class="card-text">Fri 18</p>
+              <p><strong>10°</strong> / 0°</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">☁️</h4>
+              <p class="card-text">Sat 19</p>
+              <p><strong>9°</strong> / -3°</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
