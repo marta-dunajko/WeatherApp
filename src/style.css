@@ -1,0 +1,46 @@
+.logo {
+  display: block;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+form {
+  display: block;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: black;
+  margin-left: 50px;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 30px;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.row {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.card {
+  display: block;
+  width: 200px;
+  text-align: center;
+}
