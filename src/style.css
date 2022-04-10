@@ -4,6 +4,14 @@
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.container {
+  max-width: 1000px;
+  margin-top: 30px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding: 20px;
+}
 form {
   display: block;
   margin-left: 50px;
@@ -12,7 +20,8 @@ form {
 }
 h1,
 h2,
-h3 {
+h3,
+h5 {
   color: black;
   margin-left: 50px;
   font-family: "Roboto", sans-serif;
@@ -28,6 +37,9 @@ h3 {
 }
 h4 {
   font-size: 30px;
+}
+h5 {
+  font-size: 16px;
 }
 
 .container {
@@ -48,4 +60,6 @@ h4 {
   display: block;
   font-size: 12px;
   margin-left: 50px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
