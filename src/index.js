@@ -14,7 +14,7 @@ form.addEventListener("submit", search);
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("h2");
-  temperatureElement.innerHTML = `${temperature} °C`;
+  temperatureElement.innerHTML = `${temperature} °C | °F`;
   let descriptionElement = document.querySelector("#description");
   descriptionElement.innerHTML = response.data.weather[0].description;
   let windElement = document.querySelector("#wind");
@@ -49,3 +49,15 @@ function giveDate() {
   h3.innerHTML = `${day} ${hours}:${minutes}`;
 }
 giveDate();
+
+function displayFahrenheitTemp(event) {
+  event.preventDefault();
+  let fahrenheitTemp = (celsiusTemp * 9) / 5 + 32;
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = Math.round(fahrenheitTemp);
+}
+
+let celsiusTemp = null;
+
+let fahrenheit = document.querySelector("#fahrenheit");
+fahrenheit.addEventListener("click", displayFahrenheitTemp);
