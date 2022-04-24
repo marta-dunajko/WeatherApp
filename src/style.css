@@ -12,6 +12,7 @@
   border-radius: 0.25rem;
   padding: 20px;
 }
+
 form {
   display: block;
   margin-left: 50px;
@@ -40,11 +41,6 @@ h4 {
 }
 h5 {
   font-size: 16px;
-}
-
-.container {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
 }
 .row {
   margin-left: 40px;
